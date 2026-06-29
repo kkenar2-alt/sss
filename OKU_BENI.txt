@@ -1,0 +1,19 @@
+Bu ek paket Android Studio olmadan GitHub Actions ile APK üretmek için gerekli workflow dosyasını içerir.
+
+Kurulum:
+1) Bu ZIP'i çıkarın.
+2) İçindeki .github klasörünü, SahaSiparisAndroid klasörünün içine kopyalayın.
+   Yani .github klasörü app klasörüyle aynı seviyede olmalı.
+3) GitHub'a ZIP'i değil, SahaSiparisAndroid klasörünün içindeki dosya ve klasörleri yükleyin.
+4) GitHub'da Actions sekmesine girip "Android APK Oluştur" iş akışını çalıştırın.
+
+Doğru proje kökü şöyle görünmeli:
+SahaSiparisAndroid/
+  app/
+  .github/
+    workflows/
+      android-apk.yml
+  build.gradle.kts
+  settings.gradle.kts
+  gradle.properties
+  README.md
